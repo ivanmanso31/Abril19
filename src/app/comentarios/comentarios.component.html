@@ -1,0 +1,7 @@
+<h1>Comentarios</h1>
+<ul>
+    @for (l of lista; track l) {
+        <li >{{l}}</li>
+    }
+</ul>
+<app-comentarios-hijo (llamadaPadre)="recibirDato($event)"></app-comentarios-hijo>
